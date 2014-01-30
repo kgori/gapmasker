@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from ..utils import fileIO
-from ..errors import optioncheck, filecheck
+from ..errors.errors import optioncheck, filecheck
 import re
 
 class Seq(object):
